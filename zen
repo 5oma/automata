@@ -1,0 +1,12 @@
+cd .. 
+cd diario
+cd zen
+echo "¿Título?"
+read title
+mkdir $title
+cd $title
+touch $title.html
+echo "¡Todo listo!"
+echo "Edita $title."
+echo "Estas son las entradas en zen"
+ls

@@ -1,0 +1,17 @@
+cd ..
+echo ¿Título del proyecto web?
+read title
+echo "creando directorios de $title"
+cd proyecto_0
+mkdir $title
+cd $title    
+mkdir css
+mkdir js
+mkdir img
+cd css
+touch style.css
+cd ..
+cd js
+touch main.js
+cp E:\proyectos\automatiza\templates\basic.html E:\proyectos\proyecto_0\$title\ 
+echo "¡Proyecto $title para la web!"

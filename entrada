@@ -1,0 +1,6 @@
+cd ..
+echo "¿Título?"
+read title
+cd diario
+touch $title.md
+echo "Se ha creado la entrada $title"

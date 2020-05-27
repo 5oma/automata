@@ -1,0 +1,8 @@
+cd ..
+echo "¿Nombre del proyecto?"
+read name
+cd proyecto_0
+mkdir $name
+cd $name
+touch README.md
+echo "¡Proyecto $name creado!"
