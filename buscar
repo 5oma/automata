@@ -1,0 +1,3 @@
+echo "¿Qué quieres buscar?"
+read "term"
+start www.google.com/search?q=$term
